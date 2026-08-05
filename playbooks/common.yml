@@ -1,4 +1,9 @@
-- name: Ensure wireshark is present
-  package:
-    name: wireshark
-    state: present
+---
+- name: Update web, nfs, and db servers
+  hosts: webservers, nfs, db
+  become: true
+  tasks:
+    - name: Ensure wireshark is present
+      package:
+        name: wireshark
+        state: present
