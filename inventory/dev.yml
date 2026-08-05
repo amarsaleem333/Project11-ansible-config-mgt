@@ -1,14 +1,9 @@
-# Dev Inventory 
-
 [nfs]
-172.31.17.253 ansible_ssh_user=ec2-user ansible_ssh_private_key_file="C:/Users/ME/Desktop/DEVOP STECHHUB JUNE 1 2026/Project7/project7 nfs.pem."
+172.31.17.253 ansible_ssh_user=ec2-user ansible_ssh_private_key_file="/home/ubuntu/.ssh/Project7 nfs.pem"
 
 [webservers]
-172.30.23.26 ansible_ssh_user=ec2-user ansible_ssh_private_key_file="C:/Users/ME/Desktop/DEVOP STECHHUB JUNE 1 2026/Project7/Project7 - web server1.pem"
-172.31.23.88 ansible_ssh_user=ec2-user ansible_ssh_private_key_file="C:/Users/ME/Desktop/DEVOP STECHHUB JUNE 1 2026/Project7/Project7 - web server2.pem"
+172.30.23.26 ansible_ssh_user=ec2-user ansible_ssh_private_key_file="/home/ubuntu/.ssh/Project 7 - web server 1.pem"
+172.31.23.88 ansible_ssh_user=ec2-user ansible_ssh_private_key_file="/home/ubuntu/.ssh/project 7 - web server 2.pem"
 
 [db]
-172.31.20.222 ansible_ssh_user=ec2-user ansible_ssh_private_key_file="C:/Users/ME/Desktop/DEVOP STECHHUB JUNE 1 2026/Project7/Project7 - db.pem"
-
-[lb]
-172.31.21.62 ansible_ssh_user=ubuntu ansible_ssh_private_key_file="C:/Users/ME/Desktop/DEVOP STECHHUB JUNE 1 2026/Project10/Project10 - load balancer.pem"
+172.31.20.222 ansible_ssh_user=ec2-user ansible_ssh_private_key_file="/home/ubuntu/.ssh/Project7 -DB.pem"
