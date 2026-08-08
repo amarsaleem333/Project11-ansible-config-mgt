@@ -1,3 +1,4 @@
+test change for project 12
 Project 11: Ansible Configuration Management & Bastion Host Setup
 Executive Summary
 In Projects 7 through 10, setting up virtual servers, configuring databases, and deploying web applications involved repetitive manual SSH connections and commands. Project 11 automates these operations using Ansible Configuration Management through a declarative YAML code architecture. A central Jenkins-Ansible Control Node acts as a Jump Server (Bastion Host) to securely configure remote RHEL 8 and Ubuntu targets across private subnets.
